@@ -24,14 +24,14 @@ const HeroSlider = () => {
       navigation
       loop={true}
       speed={1200}
-      className="h-screen"
+      className="h-[70vh] md:h-screen"
     >
 
       {/* SLIDE 1 */}
       <SwiperSlide>
 
         <div
-          className="relative h-screen bg-cover bg-center flex items-center"
+          className="relative h-[70vh] md:h-screen bg-cover bg-center flex items-center"
           style={{
             backgroundImage: `url(${slide1})`,
           }}
@@ -46,27 +46,27 @@ const HeroSlider = () => {
           {/* CONTENT */}
           <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
 
-            <p className="uppercase tracking-[6px] text-green-400 mb-4">
+            <p className="uppercase tracking-[4px] md:tracking-[6px] text-green-400 mb-4 text-sm md:text-base">
               AGROSARI FARM
             </p>
 
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-7xl font-bold leading-tight mb-6">
               Supplier Telur <br />
               Berkualitas Tinggi
             </h1>
 
-            <p className="text-lg md:text-2xl text-gray-200 max-w-2xl leading-8 mb-8">
+            <p className="text-base md:text-2xl text-gray-200 max-w-2xl leading-8 mb-8">
               Menyediakan telur ayam berkualitas dengan standar
               kebersihan dan distribusi terbaik untuk seluruh pelanggan.
             </p>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
 
-              <button className="bg-green-600 hover:bg-green-700 duration-300 px-8 py-4 rounded-xl text-lg font-semibold shadow-xl">
+              <button className="bg-green-600 hover:bg-green-700 duration-300 px-6 py-3 md:px-8 md:py-4 rounded-xl text-base md:text-lg font-semibold shadow-xl">
                 Hubungi Kami
               </button>
 
-              <button className="border border-white hover:bg-white hover:text-black duration-300 px-8 py-4 rounded-xl text-lg font-semibold">
+              <button className="border border-white hover:bg-white hover:text-black duration-300 px-6 py-3 md:px-8 md:py-4 rounded-xl text-base md:text-lg font-semibold">
                 Pelajari Lebih
               </button>
 
@@ -82,7 +82,7 @@ const HeroSlider = () => {
       <SwiperSlide>
 
         <div
-          className="relative h-screen bg-cover bg-center flex items-center"
+          className="relative h-[70vh] md:h-screen bg-cover bg-center flex items-center"
           style={{
             backgroundImage: `url(${slide2})`,
           }}
@@ -92,16 +92,16 @@ const HeroSlider = () => {
 
           <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
 
-            <p className="uppercase tracking-[6px] text-green-400 mb-4">
+            <p className="uppercase tracking-[4px] md:tracking-[6px] text-green-400 mb-4 text-sm md:text-base">
               NILAI PERUSAHAAN
             </p>
 
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-7xl font-bold leading-tight mb-6">
               Integritas dan <br />
               Kualitas Terbaik
             </h1>
 
-            <p className="text-lg md:text-2xl text-gray-200 max-w-2xl leading-8">
+            <p className="text-base md:text-2xl text-gray-200 max-w-2xl leading-8">
               Kami berkomitmen menjaga kualitas produk dan pelayanan
               terbaik untuk seluruh pelanggan.
             </p>
@@ -116,7 +116,7 @@ const HeroSlider = () => {
       <SwiperSlide>
 
         <div
-          className="relative h-screen bg-cover bg-center flex items-center"
+          className="relative h-[70vh] md:h-screen bg-cover bg-center flex items-center"
           style={{
             backgroundImage: `url(${slide3})`,
           }}
@@ -126,16 +126,16 @@ const HeroSlider = () => {
 
           <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
 
-            <p className="uppercase tracking-[6px] text-green-400 mb-4">
+            <p className="uppercase tracking-[4px] md:tracking-[6px] text-green-400 mb-4 text-sm md:text-base">
               KOMITMEN KAMI
             </p>
 
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-7xl font-bold leading-tight mb-6">
               Distribusi Cepat <br />
               dan Aman
             </h1>
 
-            <p className="text-lg md:text-2xl text-gray-200 max-w-2xl leading-8">
+            <p className="text-base md:text-2xl text-gray-200 max-w-2xl leading-8">
               Sistem distribusi modern dan efisien untuk menjaga
               kualitas produk tetap terbaik.
             </p>
